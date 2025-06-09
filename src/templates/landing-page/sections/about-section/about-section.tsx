@@ -30,7 +30,7 @@ export default function AboutSection() {
             Nossa Equipe
           </Badge>
           <h2 className="text-4xl font-bold text-brand-900 mb-6">
-            Conheça a CM² Arquitetura
+            Conheça a CM² Arquitetura e Engenharia
           </h2>
           <p className="text-xl text-brand-600 max-w-3xl mx-auto">
             Escritório formado por arquitetas especialistas que combinam
