@@ -15,7 +15,6 @@ export default function AboutSection() {
   return (
     <section id="sobre" className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        {/* Título */}
         <motion.div
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
@@ -39,7 +38,6 @@ export default function AboutSection() {
           </p>
         </motion.div>
 
-        {/* Cards */}
         <div className="grid md:grid-cols-2 gap-8 mb-16">
           {/* Fernanda */}
           <motion.div
@@ -112,7 +110,6 @@ export default function AboutSection() {
           </motion.div>
         </div>
 
-        {/* Equipe extra */}
         <motion.div
           initial={{ y: 40, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
